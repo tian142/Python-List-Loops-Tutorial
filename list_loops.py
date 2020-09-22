@@ -19,11 +19,15 @@ songs.pop(5)
 print(songs)
 
 
+# 1. Create another list called animals and fill it with 3 animal strings of your choice such as "Cat", "Dog", and "Bird"
 animals = ["Cat", "Dog", "Bird"]
+# 2. Add another animal to your list
 animals.append("Axolot")
+# 3. print out the 3rd animal in the list
 print(animals[2])
+# 4. Delete the first animal in the list
 animals.pop(0)
 print(animals)
-
+# 5. Use a loop to print out all the animals in your animals list
 for animal in animals:
     print(animal)
